@@ -1,0 +1,64 @@
+#uploadFile {
+    width: 500px;
+    padding: 10px 10px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #eee;
+    min-height: 200px;
+    display: none;
+}
+
+#upload_imgs li {
+    float: left;
+    width: 148px;
+    height: 148px;
+    position: relative;
+    line-height: 148px;
+    border: 1px solid #eee;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+}
+
+#upload_imgs li img {
+    width: 100%
+}
+
+#upload_imgs li i {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+#registerForm .file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 0px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    height: 31px;
+    line-height: 31px;
+    float: left;
+    text-align: center;
+    width: 350px;
+    margin-right: 10px;
+}
+
+#registerForm .file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+#registerForm .file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
